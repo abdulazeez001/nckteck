@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    font-family: 'Poppins', sans-serif;
+    width:90%;
+    margin: .5rem auto;
+    /* color: rgb(78, 77, 77); */
+    color: black;
+}
+img,
+svg,
+li,
+button,
+label,
+input[type="radio"]{
+    cursor: pointer;
+}
+p{
+    font-size: 1rem;
+}
+
+section{
+    border-bottom:2px solid rgb(241, 239, 239) ;
+}
+
+section:last-child{
+    border: 0;
+}
